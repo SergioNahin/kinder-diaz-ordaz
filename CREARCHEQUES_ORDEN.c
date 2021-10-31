@@ -1,13 +1,14 @@
 #include <stdio.h>	//librerias
 #include <conio.h>
 #include <string.h>
-#include <locale.h>
+
+
 int cantidad[300], folio[50],i,k;
 int auxcantidad, auxfolio;
 char nombre[50][50],cantidade[30][30],fecha[100][100],ap[50][50],am[50][50]; 
 char auxnom[50],auxap[50],auxam[50], auxfecha[50];
  main(){
-	setlocale(LC_ALL, "");
+
 	leer();
 	ordenar();
 	cheque();
